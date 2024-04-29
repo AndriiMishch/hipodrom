@@ -1,0 +1,16 @@
+{
+  "name": "hipodrom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html --no-cache",
+    "build:parcel": "parcel build ./src/index.html --no-cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "notiflix": "^3.2.7",
+    "parcel": "^2.12.0"
+  }
+}
