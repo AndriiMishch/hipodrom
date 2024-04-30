@@ -12,5 +12,8 @@
   "dependencies": {
     "notiflix": "^3.2.7",
     "parcel": "^2.12.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0"
   }
 }
