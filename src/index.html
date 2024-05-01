@@ -10,10 +10,27 @@
     <header><h1>HipoDrom</h1></header>
     <main>
       <section>
-        <div class="horses"><h2>Horses</h2>
-            <h3 class="horses-title">Name</h3>
-        <ul><li>Horse 1</li></ul></div>
-        <div><h2>Add new horse</h2></div>
+        <div class="horses">
+          <h2>Horses</h2>
+          <h3 class="horses-title">Name</h3>
+          <ul>
+            <li>Horse 1</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Add new horse</h2>
+          <form>
+            <input type="text" />
+            <input type="number" />
+            <select type="range">
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+            <button data-addHorse class="add-horse-btn" type="submit">
+              To add a horse click this button
+            </button>
+          </form>
+        </div>
         <div>
           <div><h3>Bet</h3></div>
           <div><h3>Resoult</h3></div>
@@ -26,9 +43,6 @@
     </main>
     <footer>Thank you for visiting HipoDrom</footer>
     Hi, hipodrom will apear here soon
-    <button data-addHorse class="add-horse-btn">
-      To add a horse click this button
-    </button>
 
     <script src="./js/index.js" type="module"></script>
   </body>
